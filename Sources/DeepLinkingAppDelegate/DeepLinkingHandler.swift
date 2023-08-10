@@ -8,7 +8,7 @@
 import Foundation
 
 public protocol DeepLinkingHandler: AnyObject {
-    func showPaymentStatus(url: URL)
-    func showHelpPage(url: URL)
+    func showPaymentDetails(url: URL)
+    func showPaymentHistory(url: URL)
     func showNewPayment(url: URL)
 }
